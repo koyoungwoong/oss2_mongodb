@@ -6,7 +6,7 @@ const MongoClient = require('mongodb').MongoClient
 app.set('view engine', 'ejs');
 
 var db;
-MongoClient.connect('mongodb+srv://yuko:hallym@cluster0.ktqzhbg.mongodb.net/?retryWrites=true&w=majority', function(err, client){
+MongoClient.connect('xxxxxxxx, function(err, client){
   if (err) return console.log(err)
   db = client.db('member');
 
